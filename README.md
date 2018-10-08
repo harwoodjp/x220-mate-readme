@@ -1,6 +1,6 @@
 ## Change wallpaper
 
-    feh --bg-scale [path]
+    feh --bg-scale [path-1] [path..n]
 
     mate-control-center
 
@@ -30,6 +30,8 @@
 
     xkill
 
+    htop
+
 ## MATE control center
 
     mate-control-center
@@ -39,6 +41,8 @@
     sshot
 
     scrot '%Y-%m-%d_%H:%M:%S_$wx$h.png' -e 'mv $f ~/Pictures/Screenshots/'
+
+    mate-screenshot
 
 ## Volume
 
