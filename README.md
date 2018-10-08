@@ -61,6 +61,13 @@
     
     mate-control-center
 
+## Wifi
+    
+    nmcli c                   // saved connections
+    nmcli d wifi list         // available connections
+    nmcli c down [wifi-conn]  // disconnect 
+    nmcli c up [wifi-connect] // connect
+
 ## Screen brightness
   
   Max brightness
