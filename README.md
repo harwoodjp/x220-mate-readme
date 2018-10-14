@@ -26,6 +26,10 @@
 
     shutdown -h now
 
+## Suspend
+    
+    sudo pm-suspend
+
 ## Kill process
 
     xkill
@@ -66,7 +70,7 @@
     nmcli c                   // saved connections
     nmcli d wifi list         // available connections
     nmcli c down [wifi-conn]  // disconnect 
-    nmcli c up [wifi-connect] // connect
+    nmcli c up [wifi-conn] // connect
 
 ## Screen brightness
   
@@ -77,6 +81,8 @@
   Set brightness
 
     sudo vim /sys/class/backlight/intel_backlight/brightness
+
+    sudo cp /sys/class/backlight/intel_backlight/max_brightness /sys/class/backlight/intel_backlight/brightness
 
 ## System stats (incl. battery)
 
