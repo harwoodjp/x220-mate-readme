@@ -87,3 +87,11 @@
 ## System stats (incl. battery)
 
     sudo tlp stat
+
+## Play music
+    
+    cmus
+
+    :add ~/Music
+
+    :update-cache -f
