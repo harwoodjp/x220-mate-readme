@@ -14,6 +14,10 @@
 
     lshw
 
+## Temperature
+    
+    sensors
+
 ## Logout
    
     i3-msg exit
