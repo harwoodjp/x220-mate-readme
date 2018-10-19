@@ -10,9 +10,15 @@
     
     xrandr -s [widthxheight]
 
+## Manage displays
+
+    xrandr --output HDMI1 --auto --right-of LVDS1
+
 ## Computer stats
 
     lshw
+    
+    tlp-stat
 
 ## Temperature
     
