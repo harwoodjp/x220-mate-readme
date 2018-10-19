@@ -105,3 +105,7 @@
     :add ~/Music
 
     :update-cache -f
+
+## Map key/pointer events
+
+    xmodmap [...]
