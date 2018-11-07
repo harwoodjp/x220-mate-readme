@@ -94,6 +94,10 @@
 
     sudo cp /sys/class/backlight/intel_backlight/max_brightness /sys/class/backlight/intel_backlight/brightness
 
+    xbacklight +10
+
+    xbacklight -10    
+
 ## System stats (incl. battery)
 
     sudo tlp stat
