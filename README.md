@@ -13,7 +13,9 @@
 ## Manage displays
 
     xrandr --output HDMI1 --auto --right-of LVDS1
-
+    
+    arandr
+    
 ## Computer stats
 
     lshw
